@@ -1,0 +1,21 @@
+
+.nav .nav-item {
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.nav .nav-item-footer {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.nav-item-footer:hover {
+  text-decoration: none;
+  color:#00e0d0;
+}

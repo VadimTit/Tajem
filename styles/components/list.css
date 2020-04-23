@@ -1,0 +1,30 @@
+.list-contacts { 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list-contacts li:first-child {
+    padding-bottom: 25px;
+}
+.list-contacts > .list-item {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.35px;
+    position: relative;
+    padding-left: 30px;
+}
+.list-social {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.list-social > li {
+    padding: 20px 5px;
+}
+.list-social a {
+    text-decoration: none;
+}
+

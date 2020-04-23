@@ -1,0 +1,94 @@
+.button {
+  display: inline-block;
+  margin: 0;
+  border: 1px solid #00e0d0;
+  border-radius: 2px;
+  font-size: 16px;
+  padding: 11px 16px;
+  outline: none;
+  text-transform: none;
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:focus {
+  outline: none;
+}
+
+.button-primary {
+  color: #00e0d0;
+}
+
+.button-primary:hover {
+  color: #fff;
+  background-color: #00e0d0;
+}
+.button-danger {
+  color: #ffffff;
+  background-color: red;
+}
+.button-danger:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+.button-large {
+  padding: 22px 64px;
+}
+.button-medium {
+  padding: 15px 32px;
+  background-color: #fff;
+  font-family: "Hammersmith One";
+  font-size: 16px;
+  font-weight: bold;
+}
+.button-full {
+  width: 100%;
+}
+.button-xl {
+  border: 1px solid #ffffff;
+  opacity: 0.75;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  padding: 17px;
+
+}
+.button-xl:hover {
+  color: #fff;
+  background-color: #00e0d0;
+  border: 1px solid #00e0d0;
+}
+.button-sm {
+  background-color: #ffffff;
+  border-radius: 2px;
+  opacity: 0.75;
+  color: #ffffff;
+  font-family: Roboto;
+  letter-spacing: 0.7px;
+  padding: 19px 38px;
+  margin-left: 10px;
+  position: relative;
+}
+.button-sm:hover {
+  background-color: #00e0d0;
+}
+/* .button-icon::before {
+  content: "";
+  background-image: url(../../images/paper122.png);
+  background-size: cover;
+  position: absolute;
+  margin-top: -12px;
+  top: 50%;
+  left: 50%;
+  margin-left: -12px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+} */
