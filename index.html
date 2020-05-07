@@ -4,6 +4,7 @@
 <head>
   <title>Template</title>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link rel="stylesheet" href="styles/main.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -14,7 +15,17 @@
     <!-- HERO -->
     <section class="section section-hero">
       <figure class="section-background">
-        <img src="images/PUT_YOUR_IMAGE_HERE.png" alt="background" />
+        <!-- <img src="images/PUT_YOUR_IMAGE_HERE.png" alt="background" /> -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/PUT_YOUR_IMAGE_HERE.png" alt="background" />
+            </div>
+            <div class="swiper-slide"><img src="images/PUT_YOUR_IMAGE_HERE3.png" alt="background" />
+            </div>
+            <div class="swiper-slide"><img src="images/Les-letom-900x500.jpg" alt="background" />
+            </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </figure>
       <div class="section-overlay"></div>
 
@@ -516,7 +527,8 @@
       </section>
     </footer>
   </main>
-
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
